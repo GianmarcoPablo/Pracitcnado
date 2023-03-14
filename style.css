@@ -1,0 +1,74 @@
+
+
+.contenedor{
+    max-width: 35%;
+    margin: 0 auto;
+}
+
+.formulario{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.campo{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+textarea:last-child {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+.boton{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.correcto{
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+}
